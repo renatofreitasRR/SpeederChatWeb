@@ -14,7 +14,7 @@ export function Home() {
 
   useEffect(() => {
     getRooms();
-  });
+  }, []);
 
   return (
     <div className="home">
